@@ -1,0 +1,33 @@
+{
+  "name": "orga-nize-ai",
+  "version": "0.0.1",
+  "description": "Smart Directory and File Organizer with OpenAI",
+  "main": "dist/index.js",
+  "keywords": [
+    "file-organizer",
+    "openai",
+    "typescript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": {
+    "email": "support@jorcelino.dev",
+    "url": "https://jorcelino.dev",
+    "name": "Jorcelino F. C. Junior"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx --env-file=.env src/index.ts",
+    "walk": "tsx --env-file=.env src/test.ts"
+  },
+  "dependencies": {
+    "dree": "^5.1.5",
+    "openai": "^4.77.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2"
+  }
+}
