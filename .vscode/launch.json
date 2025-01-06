@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "start & attach",
+      "command": "npm run start",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
